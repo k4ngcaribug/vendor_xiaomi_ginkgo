@@ -6,6 +6,9 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/ginkgo
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib64/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcbassboost.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib64/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcreverb.so \
+    vendor/xiaomi/ginkgo/proprietary/vendor/lib64/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcvirt.so \
     vendor/xiaomi/ginkgo/proprietary/vendor/lib/soundfx/libspatialaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libspatialaudio.so \
     vendor/xiaomi/ginkgo/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/xiaomi/ginkgo/proprietary/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml \
